@@ -4,15 +4,15 @@ Little probe library to collect system-level metrics from your machines. Works w
 
 ## Supported operations
 
-`get-cpu-list` List of cpus and their info
-`get-cpu-perc` Current cpu stats
-`get-proc-mem` Process memory metrics
-`get-disk-usage` Disk usage for certain disk
-`get-tcp` Tcp stats
+ * `get-cpu-list` List of cpus and their info
+ * `get-cpu-perc` Current cpu stats
+ * `get-proc-mem` Process memory metrics
+ * `get-disk-usage` Disk usage for certain disk
+ * `get-tcp` Tcp stats
 
 Reporting helpers:
 
-`map-diff` Returns numeric difference between values of two maps. Useful for metric diff reporting.
+ * `map-diff` Returns numeric difference between values of two maps. Useful for metric diff reporting.
 
 ## License
 
