@@ -125,16 +125,16 @@
 
   Tcp
   (to-map [^Tcp tcp]
-    {:system.network.tcp.active_opens  (.getActiveOpens tcp)
-     :system.network.tcp.attempt_fails (.getAttemptFails tcp)
-     :system.network.tcp.curr_estab    (.getCurrEstab tcp)
-     :system.network.tcp.estab_resets  (.getEstabResets tcp)
-     :system.network.tcp.in_errs       (.getInErrs tcp)
-     :system.network.tcp.in_segs       (.getInSegs tcp)
-     :system.network.tcp.out_rsts      (.getOutRsts tcp)
-     :system.network.tcp.out_segs      (.getOutSegs tcp)
-     :system.network.tcp.passive_opens (.getPassiveOpens tcp)
-     :system.network.tcp.retrans_segs  (.getRetransSegs tcp)})
+    {:system.tcp.active_opens  (.getActiveOpens tcp)
+     :system.tcp.attempt_fails (.getAttemptFails tcp)
+     :system.tcp.curr_estab    (.getCurrEstab tcp)
+     :system.tcp.estab_resets  (.getEstabResets tcp)
+     :system.tcp.in_errs       (.getInErrs tcp)
+     :system.tcp.in_segs       (.getInSegs tcp)
+     :system.tcp.out_rsts      (.getOutRsts tcp)
+     :system.tcp.out_segs      (.getOutSegs tcp)
+     :system.tcp.passive_opens (.getPassiveOpens tcp)
+     :system.tcp.retrans_segs  (.getRetransSegs tcp)})
 
   FileSystemUsage
   (to-map [^FileSystemUsage file-system]
